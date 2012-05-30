@@ -112,6 +112,15 @@ struct colortable {
   char *term_flg, *CSS_name, *font_fg, *font_bg;
 } colortable[11];
 
+struct tangle {
+	char *radcolors[] = {
+
+"silver", "neon_red", "neon_blue", "neon_green"
+
+  };
+ }
+}
+
 struct extensions {
   char *ext;
   char *term_flg, *CSS_name, *web_fg, *web_bg, *web_extattr;
